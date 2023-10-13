@@ -13,7 +13,7 @@ function Tempapp() {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=3b250cacdd73bc7f1b7e99eed6c53e8d`
       const response = await fetch(url)
       const resJson = await response.json()
-      console.log(resJson);
+      // console.log(resJson);
       setCity(resJson.main)
     }
     fetchApi()
