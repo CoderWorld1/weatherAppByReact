@@ -29,7 +29,7 @@ function Tempapp() {
       </div>
 
       {!city ? (
-        <p>अबे कुछ टाइप तो कर 😡</p>
+        <p>No Data Found 👾</p>
       ) : (
         <div>
           <div className='info'>
