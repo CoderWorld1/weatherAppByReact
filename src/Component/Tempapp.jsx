@@ -5,7 +5,7 @@ import '../Component/Style/style.css'
 function Tempapp() {
 
   const [city, setCity] = useState(null)
-  const [search, setSearch] = useState("Mumbai")
+  const [search, setSearch] = useState("Delhi")
 
   useEffect(() => {
     const fetchApi = async () => {
@@ -29,7 +29,7 @@ function Tempapp() {
       </div>
 
       {!city ? (
-        <p>No Data Found</p>
+        <p>अबे कुछ टाइप तो कर 😡</p>
       ) : (
         <div>
           <div className='info'>
